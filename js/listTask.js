@@ -84,6 +84,7 @@ export function listTask() {
         // Tarea
         const tr = document.createElement("tr");
         const tdTask = document.createElement("td");
+        tdTask.classList.add('fs-2');
         const tdAction = document.createElement("td");
         tdTask.textContent = task.text;
 
